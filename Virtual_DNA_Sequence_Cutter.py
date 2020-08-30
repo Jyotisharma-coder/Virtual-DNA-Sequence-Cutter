@@ -7,6 +7,8 @@ cutting_location = {'EcoRI': 1 , 'BamHI': 1 , 'HindIII': 1, 'TaqI': 1 , 'NotI': 
 #location_list = cutting_location.values()
 #print(location_list)
 
+# add the code for reading FASTA format and .txt files
+
 def check_for_sequence(input_sequence):
     while input_sequence == "":
         input_sequence = input("Please provide the sequence using A, G, C and T nucleotides from 5' to 3' : ")
